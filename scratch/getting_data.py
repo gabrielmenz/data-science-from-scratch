@@ -31,7 +31,7 @@ with open('tab_delimited_stock_prices.txt', 'w') as f:
 """)
 
 def process(date: str, symbol: str, closing_price: float) -> None:
-    # Imaginge that this function actually does something.
+    # Imagine that this function actually does something.
     assert closing_price > 0.0
 
 import csv
